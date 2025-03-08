@@ -1,0 +1,245 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Classic White T-Shirt",
+        "description": "A comfortable and breathable cotton t-shirt, perfect for everyday wear.",
+        "price": 19.99,
+        "category": "Men",
+        "type": "Tops"
+      },
+      {
+        "id": 2,
+        "title": "Slim Fit Jeans",
+        "description": "Stylish slim-fit denim jeans with a stretchable fabric for ultimate comfort.",
+        "price": 49.99,
+        "category": "Men",
+        "type": "Bottoms"
+      },
+      {
+        "id": 3,
+        "title": "Formal Blazer",
+        "description": "A sleek and modern blazer, ideal for business meetings or formal occasions.",
+        "price": 89.99,
+        "category": "Men",
+        "type": "Outerwear"
+      },
+      {
+        "id": 4,
+        "title": "Maxi Dress",
+        "description": "A flowy and elegant maxi dress, perfect for summer outings and special events.",
+        "price": 59.99,
+        "category": "Women",
+        "type": "Dresses"
+      },
+      {
+        "id": 5,
+        "title": "Athletic Joggers",
+        "description": "Lightweight and breathable joggers designed for workouts and casual wear.",
+        "price": 39.99,
+        "category": "Unisex",
+        "type": "Bottoms"
+      },
+      {
+        "id": 6,
+        "title": "Hooded Sweatshirt",
+        "description": "A cozy hoodie with a front pocket, ideal for chilly evenings and casual days.",
+        "price": 34.99,
+        "category": "Unisex",
+        "type": "Tops"
+      },
+      {
+        "id": 7,
+        "title": "Linen Shirt",
+        "description": "A stylish and breathable linen shirt, perfect for warm weather and casual occasions.",
+        "price": 44.99,
+        "category": "Men",
+        "type": "Tops"
+      },
+      {
+        "id": 8,
+        "title": "Pencil Skirt",
+        "description": "A classic pencil skirt that complements office wear and formal outfits.",
+        "price": 42.99,
+        "category": "Women",
+        "type": "Bottoms"
+      },
+      {
+        "id": 9,
+        "title": "Cargo Pants",
+        "description": "Functional and stylish cargo pants with multiple pockets for utility and comfort.",
+        "price": 54.99,
+        "category": "Men",
+        "type": "Bottoms"
+      },
+      {
+        "id": 10,
+        "title": "Floral Summer Dress",
+        "description": "A lightweight and breezy floral dress, perfect for a beach day or summer brunch.",
+        "price": 65.99,
+        "category": "Women",
+        "type": "Dresses"
+      },
+      {
+        "id": 11,
+        "title": "Denim Jacket",
+        "description": "A timeless denim jacket that adds a stylish edge to any outfit.",
+        "price": 79.99,
+        "category": "Unisex",
+        "type": "Outerwear"
+      },
+      {
+        "id": 12,
+        "title": "Oversized Sweater",
+        "description": "A cozy and oversized knit sweater, perfect for a relaxed and warm look.",
+        "price": 45.99,
+        "category": "Women",
+        "type": "Tops"
+      },
+      {
+        "id": 13,
+        "title": "Leather Jacket",
+        "description": "A bold and stylish leather jacket for a rugged yet fashionable appearance.",
+        "price": 99.99,
+        "category": "Men",
+        "type": "Outerwear"
+      },
+      {
+        "id": 14,
+        "title": "Chinos",
+        "description": "A pair of versatile chinos that offer a balance between casual and formal styling.",
+        "price": 49.99,
+        "category": "Men",
+        "type": "Bottoms"
+      },
+      {
+        "id": 15,
+        "title": "Baseball Cap",
+        "description": "A stylish and adjustable baseball cap, perfect for sunny days.",
+        "price": 19.99,
+        "category": "Unisex",
+        "type": "Accessories"
+      },
+      {
+        "id": 16,
+        "title": "Puffer Jacket",
+        "description": "A warm and lightweight puffer jacket for winter wear.",
+        "price": 89.99,
+        "category": "Unisex",
+        "type": "Outerwear"
+      },
+      {
+        "id": 17,
+        "title": "Ripped Skinny Jeans",
+        "description": "Fashion-forward skinny jeans with a distressed design for an edgy look.",
+        "price": 52.99,
+        "category": "Women",
+        "type": "Bottoms"
+      },
+      {
+        "id": 18,
+        "title": "Wool Coat",
+        "description": "A warm and stylish wool coat to keep you comfortable during the colder months.",
+        "price": 119.99,
+        "category": "Unisex",
+        "type": "Outerwear"
+      },
+      {
+        "id": 19,
+        "title": "Snapback Hat",
+        "description": "A trendy snapback hat with an adjustable strap for a perfect fit.",
+        "price": 22.99,
+        "category": "Unisex",
+        "type": "Accessories"
+      },
+      {
+        "id": 20,
+        "title": "Beanie",
+        "description": "A soft and warm knitted beanie for the winter season.",
+        "price": 18.99,
+        "category": "Unisex",
+        "type": "Accessories"
+      },
+      {
+        "id": 21,
+        "title": "Pleated Midi Skirt",
+        "description": "A stylish and elegant pleated midi skirt that complements any wardrobe.",
+        "price": 49.99,
+        "category": "Women",
+        "type": "Bottoms"
+      },
+      {
+        "id": 22,
+        "title": "Plaid Flannel Shirt",
+        "description": "A warm and stylish flannel shirt, great for casual and outdoor wear.",
+        "price": 41.99,
+        "category": "Men",
+        "type": "Tops"
+      },
+      {
+        "id": 23,
+        "title": "Running Shorts",
+        "description": "Breathable and stretchable running shorts for fitness enthusiasts.",
+        "price": 25.99,
+        "category": "Men",
+        "type": "Bottoms"
+      },
+      {
+        "id": 24,
+        "title": "Faux Fur Coat",
+        "description": "A luxurious and warm faux fur coat for a sophisticated winter look.",
+        "price": 129.99,
+        "category": "Women",
+        "type": "Outerwear"
+      },
+      {
+        "id": 25,
+        "title": "Track Suit",
+        "description": "A comfortable and flexible track suit, great for workouts or lounging.",
+        "price": 69.99,
+        "category": "Unisex",
+        "type": "Activewear"
+      },
+      {
+        "id": 26,
+        "title": "V-Neck Sweater",
+        "description": "A classic V-neck sweater made from soft wool, perfect for layering in cooler weather.",
+        "price": 47.99,
+        "category":"Men",
+        "type": "Tops"
+      },
+      {
+        "id": 27,
+        "title": "High-Waisted Jeans",
+        "description": "Trendy high-waisted jeans that provide both style and comfort.",
+        "price": 55.99,
+        "category":"Women",
+        "type":"Bottoms"
+      },
+      {
+        "id": 28,
+        "title": "Windbreaker Jacket",
+        "description": "A lightweight windbreaker that offers protection against wind and light rain..",
+        "price": 74.99,
+        "category":"Unisex",
+        "type":"Outerwear"
+      },
+      {
+        "id": 29,
+        "title": "Yoga Leggings",
+        "description": "Stretchable and breathable yoga leggings designed for workouts and casual wear.",
+        "price": 39.99,
+        "category":"Women",
+        "type":"Activewear"
+      },
+      {
+        "id": 30,
+        "title": "Classic Loafers",
+        "description": "Timeless and elegant loafers that elevate any business or casual outfit.",
+        "price": 89.99,
+        "category":"Men",
+        "type":"Footwear"
+
+      }
+    ]
+}
