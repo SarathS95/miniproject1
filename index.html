@@ -1,59 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Let's Shop online</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous"
-      />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-      <link rel="stylesheet" href="styles.css">
-
-    </head>
-    <body>
-        <!-- Navigtion Bar1 -->
-         <div class="navigation_bar">
-            <div class="container1">
-               <p>Free Shipping, with a purchase of over $300</p>
-               <div class="nav_links1">
-                <a href="#">Sign-in/SignUp</a>
-                <a href="#">FAQs</a>
-                <a href="#">USD ▼</a>
-               </div> 
+  <head>
+    <title>Let's Shop online</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigtion Bar1 -->
+    <div class="navigation_bar">
+      <div class="container1">
+        <p>Free Shipping, with a purchase of over $300</p>
+        <div class="nav_links1">
+          <a href="#">Sign-in/SignUp</a>
+          <a href="#">FAQs</a>
+          <a href="#">USD ▼</a>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation Bar2 -->
+    <nav class="main_bar">
+      <div class="container2">
+        <ul class="nav_link2">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+        <div class="nav-icons">
+          <a href="#" id="searchIcon"><i class="bi bi-search"></i></a>
+          <a href="#"><i class="bi bi-cart"></i></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <header class="banner">
+      <div class="container3">
+        <div class="content">
+          <h2>Summer Collection</h2>
+          <h1>All Styles for Men & Women</h1>
+          <p>
+            Ethically crafted with an unwavering commitment to exceptional
+            quality.
+          </p>
+          <a href="#" class="btn btn-dark">Shop Now</a>
+        </div>
+        <img
+          src="https://www.standout.co.uk/blog/wp-content/uploads/2022/04/Screenshot-85-770x493.png"
+          alt="summercash"
+          class="banner_image"
+        />
+        <img
+          src="https://napulitanamente.com/wp-content/uploads/2024/04/Italian-Fashion-Trend-Spring-Summer-2024-1.png"
+          alt="summerdress"
+          class="banner_image2"
+        />
+      </div>
+    </header>
+    <section class="container my-4">
+      <div class="row">
+        <!-- search -->
+        <div class="col-md-4">
+          <input
+            type="text"
+            id="searchBox"
+            class="form-control"
+            placeholder="Search prodcuts..."
+          />
+        </div>
+        <!-- Filter for category -->
+        <div class="col-md-3">
+          <select id="filterCategory" class="form-select">
+            <option value="">All Categories</option>
+            <option value="Men">Men</option>
+            <option value="Women">Women</option>
+            <option value="Unisex">Unisex</option>
+          </select>
+        </div>
+        <!-- Filter for type -->
+        <div class="col-md-3">
+          <select id="filterType" class="form-select">
+            <option value="">All Types</option>
+            <option value="Tops">Tops</option>
+            <option value="Bottoms">Bottoms</option>
+            <option value="Dresses">Dresses</option>
+            <option value="Outerwear">Outerwear</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Activewear">Activewear</option>
+            <option value="Footwear">Footwear</option>
+          </select>
+        </div>
+        <!-- Filter -->
+        <div class="col-md-2">
+          <select id="filter" class="form-select">
+            <option value="">Sort by</option>
+            <option value="lowToHigh">Price: Low to High</option>
+            <option value="highToLow">Price: High to Low</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <!-- Display section -->
+    <section class="container mt-4">
+      <div class="row" id="productList">
+        <!-- card1 product -->
+         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTysRskC83X0Y26HfbsZtLBx1OCx3s5gI-LLg&s" class="card-img-top" alt="white Tshirt">
+                <div class="card-body">
+                    <span class="badge bg-secondary">Men</span>
+                    <span class="badge bg-primary">Tops</span>
+                    <h5 class="card-title">Classic White T-Shirt</h5>
+                    <p class="card-text">A comfortable and breathable cotton t-shirt, perfect for everyday wear.</p>
+                    <p class="card-price"><strong>$19.99</strong></p>
+                    <button class="btn btn-dark">Buy</button>
+                </div>
             </div>
          </div>
-         <!-- Navigation Bar2 -->
-          <nav class="main_bar">
-            <div class="container2">
-                <ul class="nav_link2">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-                <div class="nav-icons">
-                    <a href="#"><i class="bi bi-search"></i></a>
-                    <a href="#"><i class="bi bi-cart"></i></a>
+         <!-- Card2 Product -->
+         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Slim fit jeans">
+                <div class="card-body">
+                    <span class="badge bg-secondary">Men</span>   <!--shoes badge-->
+                    <span class="badge bg-primary">Bottoms</span>
+                    <h5 class="card-title">Slim Fit Jeans</h5>
+                    <p class="card-text">Stylish slim-fit denim jeans with stretchable fabric for ultimate comfort.</p>
+                    <p class="card-price"><strong>$49.99</strong></p>
+                    <button class="btn btn-dark">Buy</button>
+                </div>
+            </div>
+         </div>
 
-                </div>
-            </div>
-          </nav>
-          <!-- Banner -->
-          <header class="banner">
-            <div class="container3">
-                <div class="content">
-                    <h2>Summer Collection</h2>
-                    <h1>All Styles for Men & Women</h1>
-                    <p>Ethically crafted with an unwavering commitment to exceptional quality.</p>
-                    <a href="#" class="btn btn-dark">Shop Now</a>
-                </div>
-                <img src="https://www.standout.co.uk/blog/wp-content/uploads/2022/04/Screenshot-85-770x493.png" alt="summercash" class="banner_image">
-                <img src="https://napulitanamente.com/wp-content/uploads/2024/04/Italian-Fashion-Trend-Spring-Summer-2024-1.png" alt="summerdress" class="banner_image2">
-            </div>
-        </header>
-    </body>
+      </div>
+    </section>
+  </body>
 </html>
