@@ -112,3 +112,42 @@ body{
     object-fit: cover;
     border-radius: 10px;
 }
+.content{
+    text-align: left;
+    max-width: 400px;
+}
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkgray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content h1 {
+        font-size: 50px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+}
+.content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.btn-dark {
+    padding: 12px 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
