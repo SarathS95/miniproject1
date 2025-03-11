@@ -14,6 +14,6 @@ app.get("/api/products", (req,res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Prodcut server is running on http://localhost:${port}`);
+    console.log(`Product server is running on http://localhost:${port}/api/products`);
 });
 

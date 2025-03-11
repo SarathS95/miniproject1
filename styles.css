@@ -1,4 +1,3 @@
-/* Reset style */
 *{
     margin: 0;
     padding: 0;
@@ -8,8 +7,6 @@
 body{
     background-color: beige;
 }
-
-/* Navigation Bar1 */
 .navigation_bar {
     background-color: black;
     color: white;
@@ -20,9 +17,6 @@ body{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .container1 p {
     margin: 0;
@@ -44,20 +38,14 @@ body{
 .nav_links1 a:hover {
     text-decoration: underline;
 }
-
-/* Main Bar */
 .main_bar {
     background-color: #d9d9d9;
-    padding: 17px;
+    
 }
 .container2 {
     width:90%;
     max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 .nav_link2 {
     list-style: none;
@@ -81,7 +69,6 @@ body{
     background-color: black;
     color: white;
 }
-/* Icons */
 .nav-icons {
     position: absolute;
     right: 0;
@@ -98,7 +85,6 @@ body{
     color: grey;
 }
 
-/* Banner */
 .banner {
     background-color: beige;
     padding: 50px 0;
@@ -109,9 +95,6 @@ body{
 .container3 {
     width: 90%;
     max-width: 1200px;
-    display: flex;
-    align-items:center;
-    gap:20px;
 }
 .banner_image, .banner_image2 {
     width:50%;
@@ -161,27 +144,15 @@ body{
 .btn-dark:hover{
     background-color: #333;
 }
-/* Display section */
 #productList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
 }
-.card {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid #d9d9d9;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
+
 .card-img-top {
-    width: 100%;
-    height: 250px;
     object-fit: cover;
 }
 .card-body {
